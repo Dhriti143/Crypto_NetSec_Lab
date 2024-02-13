@@ -47,4 +47,4 @@ Each directory contains code, explanations, and examples for the respective lab 
 Contributions are welcome! If you find issues or have enhancements, please open an issue or create a pull request.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE) file for details.
