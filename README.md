@@ -39,7 +39,7 @@ This repository contains implementations and demonstrations of various cryptogra
   - Use of the Wireshark tool to view network traffic, including instructions on capturing and analyzing traffic passing across lab computers.
 
 ## Usage
-Clone the repository: git clone https://github.com/Dhriti143/Crypto-NetSec-Lab.git
+Clone the repository: git clone https://github.com/Dhriti143/Crypto_NetSec_Lab.git
 Follow the individual directories for specific implementations.
 Each directory contains code, explanations, and examples for the respective lab topic.
 
