@@ -74,21 +74,28 @@ int main() {
         }
     }
 
+    printf("Public key (e, n): (%ld, %ld)\n", e, n);
+    long m1,m2;
+    printf("Enter number 1: ");
+    scanf("%ld", &m1);
+    printf("Enter number 2: ");
+    scanf("%ld", &m2);
+    
+    long e1 = encrypt(m1, e, n);
+    printf("Encrypted message: %ld\n", e1);
+    long e2 = encrypt(m2, e, n);
+    printf("Encrypted message: %ld\n", e2);
+    e2 = e2*e1;
+
     // Calculating d
     d = modInverse(e, phi_n);
+    printf("Private key: %ld\n", d);
 
-    printf("Public key (e, n): (%ld, %ld)\n", e, n);
-    printf("Private key (d, n): (%ld, %ld)\n", d, n);
+    long m2_decrypt = decrypt(e2, d, n);
+    printf("decryption of m2: %ld\n", m2_decrypt);
 
-    long message;
-    printf("Enter number to encrypt: ");
-    scanf("%ld", &message);
-
-    long encrypted = encrypt(message, e, n);
-    printf("Encrypted message: %ld\n", encrypted);
-
-    long decrypted = decrypt(encrypted, d, n);
-    printf("Decrypted message: %ld\n", decrypted);
+    long m1_decrypt = m2_decrypt/m2;
+    printf("Thus, decryption of m1 is: %ld", m1_decrypt);
 
     return 0;
 }
