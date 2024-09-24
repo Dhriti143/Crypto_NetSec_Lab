@@ -11,25 +11,18 @@ This repository contains implementations and demonstrations of various cryptogra
 3. **Extended Euclidean Algorithm**
   - Implementation and application of the Extended Euclidean Algorithm.
 4. **RSA Implementation**
-  - Status: Planned
   - Implementation of the RSA cryptographic algorithm, including key generation, encryption, and decryption examples.
 5. **CCA2 Attack on RSA**
-  - Status: Planned
   - Demonstration of a Chosen Ciphertext Attack (CCA2) on RSA, along with discussions on preventive measures.
 6. **Elgamal Algorithm for Encryption**
-  - Status: Planned
   - Implementation of the Elgamal Algorithm for encryption.
 7. **Elgamal Algorithm for Digital Signature**
-  - Status: Planned
   - Implementation of the Elgamal Algorithm for digital signatures, including the verification process and security considerations.
 8. **Pseudorandom Number Generation**
-  - Status: Planned
   - Implementation of a custom-designed pseudorandom number generation algorithm, accompanied by an explanation of design principles.
 9. **Shamir Secret Sharing Scheme**
-  - Status: Planned
   - Implementation and usage of the Shamir Secret Sharing Scheme.
 10. **Elgamal for Digital Signature**
-  - Status: Planned
   - Utilizing Elgamal for generating digital signatures, providing example use cases and discussing security considerations.
 
 ## Usage
