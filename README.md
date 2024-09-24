@@ -26,7 +26,7 @@ This repository contains implementations and demonstrations of various cryptogra
   - Utilizing Elgamal for generating digital signatures, providing example use cases and discussing security considerations.
 
 ## Usage
-Clone the repository: git clone https://github.com/Dhriti143/Crypto_NetSec_Lab.git
+Clone the repository: git clone https://github.com/Dhriti143/Cryptography-Guide.git
 Follow the individual directories for specific implementations.
 Each directory contains code, explanations, and examples for the respective lab topic.
 
