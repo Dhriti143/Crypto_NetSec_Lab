@@ -31,12 +31,6 @@ This repository contains implementations and demonstrations of various cryptogra
 10. **Elgamal for Digital Signature**
   - Status: Planned
   - Utilizing Elgamal for generating digital signatures, providing example use cases and discussing security considerations.
-11. **PBC Library and Bilinear Pairing Operation**
-  - Status: Planned
-  - Implementation and usage of the PBC library for performing bilinear pairing operations, along with practical examples and applications.
-12. **Wireshark Network Traffic Analysis**
-  - Status: Planned
-  - Use of the Wireshark tool to view network traffic, including instructions on capturing and analyzing traffic passing across lab computers.
 
 ## Usage
 Clone the repository: git clone https://github.com/Dhriti143/Crypto_NetSec_Lab.git
